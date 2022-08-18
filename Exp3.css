@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin:4.5rem 25rem;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+label,input{
+    display:block;
+}
+input{
+    height: 1.5rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 30rem;
+}
+label{
+    margin:2rem auto;
+    font-weight: bold;
+}
+.form >*{
+    padding:4.5rem;
+}
+button{
+    margin:1.5rem 13rem 0;
+}
+.error{
+    background-color: red;
+}
+
+
